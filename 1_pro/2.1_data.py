@@ -1,7 +1,7 @@
 import pandas as pd 
 import matplotlib.pyplot as plt
 
-d = pd.read_csv(r"D:\DATA_ANALYST\project\1_pro\1_online_retail.csv")
+d = pd.read_csv(r"D:\DATA_ANALYST\ONLINE_SELL\1_pro\1_online_retail.csv")
 
 def clean_data(d):
     d = d.copy()
